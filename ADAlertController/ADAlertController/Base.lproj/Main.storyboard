@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="l8e-QA-Hjy">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="fMk-3l-5ff">
+            <objects>
+                <viewController id="l8e-QA-Hjy" customClass="ViewController" customModule="CompassAlertControllerSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vjM-2r-dLQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Civ-nF-1mf">
+                                <rect key="frame" x="154" y="268" width="66" height="30"/>
+                                <state key="normal" title="OVERLAY"/>
+                                <connections>
+                                    <action selector="showOverlay" destination="l8e-QA-Hjy" eventType="touchUpInside" id="Ft9-vO-GNX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSQ-gO-oxA">
+                                <rect key="frame" x="169" y="318" width="36" height="30"/>
+                                <state key="normal" title="FULL"/>
+                                <connections>
+                                    <action selector="showFull" destination="l8e-QA-Hjy" eventType="touchUpInside" id="AnH-jH-Qa2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKg-Ol-TDI">
+                                <rect key="frame" x="157" y="368" width="60" height="30"/>
+                                <state key="normal" title="PARTIAL"/>
+                                <connections>
+                                    <action selector="showPartial" destination="l8e-QA-Hjy" eventType="touchUpInside" id="dJG-5T-qut"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0E-Xd-VNv">
+                                <rect key="frame" x="139" y="428" width="96" height="30"/>
+                                <state key="normal" title="Manual Opt In"/>
+                                <connections>
+                                    <action selector="showManualOptIn" destination="l8e-QA-Hjy" eventType="touchUpInside" id="D6p-hh-Ty1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YSQ-gO-oxA" firstAttribute="top" secondItem="Civ-nF-1mf" secondAttribute="bottom" constant="20" id="0jE-qk-0cO"/>
+                            <constraint firstItem="Civ-nF-1mf" firstAttribute="centerX" secondItem="vjM-2r-dLQ" secondAttribute="centerX" id="7mU-WG-uBL"/>
+                            <constraint firstItem="t0E-Xd-VNv" firstAttribute="top" secondItem="zKg-Ol-TDI" secondAttribute="bottom" constant="30" id="8I2-DE-2TT"/>
+                            <constraint firstItem="zKg-Ol-TDI" firstAttribute="top" secondItem="YSQ-gO-oxA" secondAttribute="bottom" constant="20" id="C8p-RD-Hxb"/>
+                            <constraint firstItem="zKg-Ol-TDI" firstAttribute="centerX" secondItem="vjM-2r-dLQ" secondAttribute="centerX" id="FSF-LC-nsc"/>
+                            <constraint firstItem="t0E-Xd-VNv" firstAttribute="centerX" secondItem="vjM-2r-dLQ" secondAttribute="centerX" id="bN0-G2-8nt"/>
+                            <constraint firstItem="YSQ-gO-oxA" firstAttribute="centerX" secondItem="vjM-2r-dLQ" secondAttribute="centerX" id="mVI-4T-Wlo"/>
+                            <constraint firstItem="YSQ-gO-oxA" firstAttribute="centerY" secondItem="vjM-2r-dLQ" secondAttribute="centerY" id="tgY-Gt-sAz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="liN-oS-QaT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K94-Jv-kGJ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

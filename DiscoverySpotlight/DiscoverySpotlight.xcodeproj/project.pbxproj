@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		628B06A81F06BDEA00D9CA30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628B06A71F06BDEA00D9CA30 /* AppDelegate.swift */; };
+		628B06AA1F06BDEA00D9CA30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628B06A91F06BDEA00D9CA30 /* ViewController.swift */; };
+		628B06AD1F06BDEA00D9CA30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 628B06AB1F06BDEA00D9CA30 /* Main.storyboard */; };
+		628B06AF1F06BDEA00D9CA30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 628B06AE1F06BDEA00D9CA30 /* Assets.xcassets */; };
+		628B06B21F06BDEA00D9CA30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 628B06B01F06BDEA00D9CA30 /* LaunchScreen.storyboard */; };
+		628B06BD1F06BDEA00D9CA30 /* DiscoverySpotlightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628B06BC1F06BDEA00D9CA30 /* DiscoverySpotlightTests.swift */; };
+		628B06C81F06BDEA00D9CA30 /* DiscoverySpotlightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628B06C71F06BDEA00D9CA30 /* DiscoverySpotlightUITests.swift */; };
+		628B06DB1F06D3CA00D9CA30 /* DiscoverySpotlightHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628B06D91F06D3CA00D9CA30 /* DiscoverySpotlightHeaderView.swift */; };
+		628B06DC1F06D3CA00D9CA30 /* DiscoverySpotlightHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 628B06DA1F06D3CA00D9CA30 /* DiscoverySpotlightHeaderView.xib */; };
+		628B06DF1F06EB5700D9CA30 /* DiscoveryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628B06DD1F06EB5700D9CA30 /* DiscoveryCollectionViewCell.swift */; };
+		628B06E01F06EB5700D9CA30 /* DiscoveryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 628B06DE1F06EB5700D9CA30 /* DiscoveryCollectionViewCell.xib */; };
+		628B06E21F06F74300D9CA30 /* DiscoverySpotlightCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628B06E11F06F74300D9CA30 /* DiscoverySpotlightCellModel.swift */; };
+		628B06E41F0701B400D9CA30 /* DiscoverySpotlightHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628B06E31F0701B400D9CA30 /* DiscoverySpotlightHeaderCell.swift */; };
+		628B06E61F0702B700D9CA30 /* DiscoverySpotlightHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 628B06E51F0702B700D9CA30 /* DiscoverySpotlightHeaderCell.xib */; };
+		628B06E81F0ACB8D00D9CA30 /* DiscoverySpotlightStackViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628B06E71F0ACB8D00D9CA30 /* DiscoverySpotlightStackViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		628B06B91F06BDEA00D9CA30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 628B069C1F06BDEA00D9CA30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 628B06A31F06BDEA00D9CA30;
+			remoteInfo = DiscoverySpotlight;
+		};
+		628B06C41F06BDEA00D9CA30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 628B069C1F06BDEA00D9CA30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 628B06A31F06BDEA00D9CA30;
+			remoteInfo = DiscoverySpotlight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		628B06A41F06BDEA00D9CA30 /* DiscoverySpotlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscoverySpotlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		628B06A71F06BDEA00D9CA30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		628B06A91F06BDEA00D9CA30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		628B06AC1F06BDEA00D9CA30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		628B06AE1F06BDEA00D9CA30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		628B06B11F06BDEA00D9CA30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		628B06B31F06BDEA00D9CA30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		628B06B81F06BDEA00D9CA30 /* DiscoverySpotlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoverySpotlightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		628B06BC1F06BDEA00D9CA30 /* DiscoverySpotlightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverySpotlightTests.swift; sourceTree = "<group>"; };
+		628B06BE1F06BDEA00D9CA30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		628B06C31F06BDEA00D9CA30 /* DiscoverySpotlightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoverySpotlightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		628B06C71F06BDEA00D9CA30 /* DiscoverySpotlightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverySpotlightUITests.swift; sourceTree = "<group>"; };
+		628B06C91F06BDEA00D9CA30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		628B06D91F06D3CA00D9CA30 /* DiscoverySpotlightHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverySpotlightHeaderView.swift; sourceTree = "<group>"; };
+		628B06DA1F06D3CA00D9CA30 /* DiscoverySpotlightHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverySpotlightHeaderView.xib; sourceTree = "<group>"; };
+		628B06DD1F06EB5700D9CA30 /* DiscoveryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryCollectionViewCell.swift; sourceTree = "<group>"; };
+		628B06DE1F06EB5700D9CA30 /* DiscoveryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoveryCollectionViewCell.xib; sourceTree = "<group>"; };
+		628B06E11F06F74300D9CA30 /* DiscoverySpotlightCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverySpotlightCellModel.swift; sourceTree = "<group>"; };
+		628B06E31F0701B400D9CA30 /* DiscoverySpotlightHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverySpotlightHeaderCell.swift; sourceTree = "<group>"; };
+		628B06E51F0702B700D9CA30 /* DiscoverySpotlightHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverySpotlightHeaderCell.xib; sourceTree = "<group>"; };
+		628B06E71F0ACB8D00D9CA30 /* DiscoverySpotlightStackViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverySpotlightStackViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		628B06A11F06BDEA00D9CA30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628B06B51F06BDEA00D9CA30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628B06C01F06BDEA00D9CA30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		628B069B1F06BDEA00D9CA30 = {
+			isa = PBXGroup;
+			children = (
+				628B06A61F06BDEA00D9CA30 /* DiscoverySpotlight */,
+				628B06BB1F06BDEA00D9CA30 /* DiscoverySpotlightTests */,
+				628B06C61F06BDEA00D9CA30 /* DiscoverySpotlightUITests */,
+				628B06A51F06BDEA00D9CA30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		628B06A51F06BDEA00D9CA30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				628B06A41F06BDEA00D9CA30 /* DiscoverySpotlight.app */,
+				628B06B81F06BDEA00D9CA30 /* DiscoverySpotlightTests.xctest */,
+				628B06C31F06BDEA00D9CA30 /* DiscoverySpotlightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		628B06A61F06BDEA00D9CA30 /* DiscoverySpotlight */ = {
+			isa = PBXGroup;
+			children = (
+				628B06A71F06BDEA00D9CA30 /* AppDelegate.swift */,
+				628B06A91F06BDEA00D9CA30 /* ViewController.swift */,
+				628B06AB1F06BDEA00D9CA30 /* Main.storyboard */,
+				628B06AE1F06BDEA00D9CA30 /* Assets.xcassets */,
+				628B06B01F06BDEA00D9CA30 /* LaunchScreen.storyboard */,
+				628B06B31F06BDEA00D9CA30 /* Info.plist */,
+				628B06D91F06D3CA00D9CA30 /* DiscoverySpotlightHeaderView.swift */,
+				628B06DA1F06D3CA00D9CA30 /* DiscoverySpotlightHeaderView.xib */,
+				628B06E31F0701B400D9CA30 /* DiscoverySpotlightHeaderCell.swift */,
+				628B06E51F0702B700D9CA30 /* DiscoverySpotlightHeaderCell.xib */,
+				628B06DD1F06EB5700D9CA30 /* DiscoveryCollectionViewCell.swift */,
+				628B06DE1F06EB5700D9CA30 /* DiscoveryCollectionViewCell.xib */,
+				628B06E11F06F74300D9CA30 /* DiscoverySpotlightCellModel.swift */,
+				628B06E71F0ACB8D00D9CA30 /* DiscoverySpotlightStackViewCell.swift */,
+			);
+			path = DiscoverySpotlight;
+			sourceTree = "<group>";
+		};
+		628B06BB1F06BDEA00D9CA30 /* DiscoverySpotlightTests */ = {
+			isa = PBXGroup;
+			children = (
+				628B06BC1F06BDEA00D9CA30 /* DiscoverySpotlightTests.swift */,
+				628B06BE1F06BDEA00D9CA30 /* Info.plist */,
+			);
+			path = DiscoverySpotlightTests;
+			sourceTree = "<group>";
+		};
+		628B06C61F06BDEA00D9CA30 /* DiscoverySpotlightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				628B06C71F06BDEA00D9CA30 /* DiscoverySpotlightUITests.swift */,
+				628B06C91F06BDEA00D9CA30 /* Info.plist */,
+			);
+			path = DiscoverySpotlightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		628B06A31F06BDEA00D9CA30 /* DiscoverySpotlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 628B06CC1F06BDEA00D9CA30 /* Build configuration list for PBXNativeTarget "DiscoverySpotlight" */;
+			buildPhases = (
+				628B06A01F06BDEA00D9CA30 /* Sources */,
+				628B06A11F06BDEA00D9CA30 /* Frameworks */,
+				628B06A21F06BDEA00D9CA30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiscoverySpotlight;
+			productName = DiscoverySpotlight;
+			productReference = 628B06A41F06BDEA00D9CA30 /* DiscoverySpotlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		628B06B71F06BDEA00D9CA30 /* DiscoverySpotlightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 628B06CF1F06BDEA00D9CA30 /* Build configuration list for PBXNativeTarget "DiscoverySpotlightTests" */;
+			buildPhases = (
+				628B06B41F06BDEA00D9CA30 /* Sources */,
+				628B06B51F06BDEA00D9CA30 /* Frameworks */,
+				628B06B61F06BDEA00D9CA30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				628B06BA1F06BDEA00D9CA30 /* PBXTargetDependency */,
+			);
+			name = DiscoverySpotlightTests;
+			productName = DiscoverySpotlightTests;
+			productReference = 628B06B81F06BDEA00D9CA30 /* DiscoverySpotlightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		628B06C21F06BDEA00D9CA30 /* DiscoverySpotlightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 628B06D21F06BDEA00D9CA30 /* Build configuration list for PBXNativeTarget "DiscoverySpotlightUITests" */;
+			buildPhases = (
+				628B06BF1F06BDEA00D9CA30 /* Sources */,
+				628B06C01F06BDEA00D9CA30 /* Frameworks */,
+				628B06C11F06BDEA00D9CA30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				628B06C51F06BDEA00D9CA30 /* PBXTargetDependency */,
+			);
+			name = DiscoverySpotlightUITests;
+			productName = DiscoverySpotlightUITests;
+			productReference = 628B06C31F06BDEA00D9CA30 /* DiscoverySpotlightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		628B069C1F06BDEA00D9CA30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = 1976;
+				TargetAttributes = {
+					628B06A31F06BDEA00D9CA30 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = N892FSHN83;
+						ProvisioningStyle = Automatic;
+					};
+					628B06B71F06BDEA00D9CA30 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = N892FSHN83;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 628B06A31F06BDEA00D9CA30;
+					};
+					628B06C21F06BDEA00D9CA30 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = N892FSHN83;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 628B06A31F06BDEA00D9CA30;
+					};
+				};
+			};
+			buildConfigurationList = 628B069F1F06BDEA00D9CA30 /* Build configuration list for PBXProject "DiscoverySpotlight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 628B069B1F06BDEA00D9CA30;
+			productRefGroup = 628B06A51F06BDEA00D9CA30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				628B06A31F06BDEA00D9CA30 /* DiscoverySpotlight */,
+				628B06B71F06BDEA00D9CA30 /* DiscoverySpotlightTests */,
+				628B06C21F06BDEA00D9CA30 /* DiscoverySpotlightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		628B06A21F06BDEA00D9CA30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628B06E01F06EB5700D9CA30 /* DiscoveryCollectionViewCell.xib in Resources */,
+				628B06DC1F06D3CA00D9CA30 /* DiscoverySpotlightHeaderView.xib in Resources */,
+				628B06E61F0702B700D9CA30 /* DiscoverySpotlightHeaderCell.xib in Resources */,
+				628B06B21F06BDEA00D9CA30 /* LaunchScreen.storyboard in Resources */,
+				628B06AF1F06BDEA00D9CA30 /* Assets.xcassets in Resources */,
+				628B06AD1F06BDEA00D9CA30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628B06B61F06BDEA00D9CA30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628B06C11F06BDEA00D9CA30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		628B06A01F06BDEA00D9CA30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628B06AA1F06BDEA00D9CA30 /* ViewController.swift in Sources */,
+				628B06DF1F06EB5700D9CA30 /* DiscoveryCollectionViewCell.swift in Sources */,
+				628B06E41F0701B400D9CA30 /* DiscoverySpotlightHeaderCell.swift in Sources */,
+				628B06A81F06BDEA00D9CA30 /* AppDelegate.swift in Sources */,
+				628B06DB1F06D3CA00D9CA30 /* DiscoverySpotlightHeaderView.swift in Sources */,
+				628B06E81F0ACB8D00D9CA30 /* DiscoverySpotlightStackViewCell.swift in Sources */,
+				628B06E21F06F74300D9CA30 /* DiscoverySpotlightCellModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628B06B41F06BDEA00D9CA30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628B06BD1F06BDEA00D9CA30 /* DiscoverySpotlightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628B06BF1F06BDEA00D9CA30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628B06C81F06BDEA00D9CA30 /* DiscoverySpotlightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		628B06BA1F06BDEA00D9CA30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 628B06A31F06BDEA00D9CA30 /* DiscoverySpotlight */;
+			targetProxy = 628B06B91F06BDEA00D9CA30 /* PBXContainerItemProxy */;
+		};
+		628B06C51F06BDEA00D9CA30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 628B06A31F06BDEA00D9CA30 /* DiscoverySpotlight */;
+			targetProxy = 628B06C41F06BDEA00D9CA30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		628B06AB1F06BDEA00D9CA30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				628B06AC1F06BDEA00D9CA30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		628B06B01F06BDEA00D9CA30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				628B06B11F06BDEA00D9CA30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		628B06CA1F06BDEA00D9CA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		628B06CB1F06BDEA00D9CA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		628B06CD1F06BDEA00D9CA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N892FSHN83;
+				INFOPLIST_FILE = DiscoverySpotlight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adidas.ait.DiscoverySpotlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		628B06CE1F06BDEA00D9CA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N892FSHN83;
+				INFOPLIST_FILE = DiscoverySpotlight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adidas.ait.DiscoverySpotlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		628B06D01F06BDEA00D9CA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N892FSHN83;
+				INFOPLIST_FILE = DiscoverySpotlightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1976.DiscoverySpotlightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscoverySpotlight.app/DiscoverySpotlight";
+			};
+			name = Debug;
+		};
+		628B06D11F06BDEA00D9CA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N892FSHN83;
+				INFOPLIST_FILE = DiscoverySpotlightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1976.DiscoverySpotlightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscoverySpotlight.app/DiscoverySpotlight";
+			};
+			name = Release;
+		};
+		628B06D31F06BDEA00D9CA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N892FSHN83;
+				INFOPLIST_FILE = DiscoverySpotlightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1976.DiscoverySpotlightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DiscoverySpotlight;
+			};
+			name = Debug;
+		};
+		628B06D41F06BDEA00D9CA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N892FSHN83;
+				INFOPLIST_FILE = DiscoverySpotlightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1976.DiscoverySpotlightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DiscoverySpotlight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		628B069F1F06BDEA00D9CA30 /* Build configuration list for PBXProject "DiscoverySpotlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628B06CA1F06BDEA00D9CA30 /* Debug */,
+				628B06CB1F06BDEA00D9CA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		628B06CC1F06BDEA00D9CA30 /* Build configuration list for PBXNativeTarget "DiscoverySpotlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628B06CD1F06BDEA00D9CA30 /* Debug */,
+				628B06CE1F06BDEA00D9CA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		628B06CF1F06BDEA00D9CA30 /* Build configuration list for PBXNativeTarget "DiscoverySpotlightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628B06D01F06BDEA00D9CA30 /* Debug */,
+				628B06D11F06BDEA00D9CA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		628B06D21F06BDEA00D9CA30 /* Build configuration list for PBXNativeTarget "DiscoverySpotlightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628B06D31F06BDEA00D9CA30 /* Debug */,
+				628B06D41F06BDEA00D9CA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 628B069C1F06BDEA00D9CA30 /* Project object */;
+}
